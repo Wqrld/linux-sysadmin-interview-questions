@@ -1,4 +1,4 @@
-Linux System Administrator/DevOps Interview Questions
+﻿Linux System Administrator/DevOps Interview Questions
 ====================================================
 
 A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
@@ -112,18 +112,14 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
 * What is Virtual Memory?
-* What is swap and what is it used for?
-* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
-* Are there any other RRs and what are they used for?
+* What is an an NS record, a PTR record
 * What is a Split-Horizon DNS?
-* What is the sticky bit?
 * What does the immutable bit do to a file?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
 * How to force/trigger a file system check on next reboot?
 * What is SNMP and what is it used for?
-* What is a runlevel and how to get the current runlevel?
-* What is SSH port forwarding?
+* What is a runlevel and how to get the current runlevel
 * What is the difference between local and remote port forwarding?
 * What are the steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
@@ -138,8 +134,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
 * Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
 * Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
-* Can you have several HTTPS virtual hosts sharing the same IP?
-* What is a wildcard certificate?
 * Which Linux file types do you know?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
 * What is the difference between exec and fork?
@@ -171,7 +165,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
-* What does ```:(){ :|:& };:``` do on your system?
 * How do you catch a Linux signal on a script?
 * Can you catch a SIGKILL?
 * What's happening when the Linux kernel is starting the OOM killer and how does it choose which process to kill first?
@@ -198,13 +191,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 #### [[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
 * What is localhost and why would ```ping localhost``` fail?
-* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
-* What is the command used to show all open ports and/or socket connections on a machine?
-* Is 300.168.0.123 a valid IPv4 address?
 * Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
-* What is a VLAN?
 * What is ARP and what is it used for?
-* What is the difference between TCP and UDP?
 * What is the purpose of a default gateway?
 * What is command used to show the routing table on a Linux box?
 * A TCP connection on a network can be uniquely defined by 4 things. What are those things?
